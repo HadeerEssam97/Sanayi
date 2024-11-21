@@ -1,0 +1,30 @@
+.log{
+  background: rgb(2,0,36);
+  background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(17,182,94,1) 100%, rgba(76,108,54,1) 100%);
+  background-size: cover;
+  }
+  .codeForm{
+     width: 500px; 
+     background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(17,182,94,1) 100%, rgba(76,108,54,1) 100%);
+  }
+  .row{
+  background-color: transparent !important;
+  padding-right: calc(var(--bs-gutter-x)* .5);
+  padding-left: calc(var(--bs-gutter-x)* .5);
+  color: black;
+}
+input{
+  border: 1px solid black !important; 
+}
+input:focus{
+  border: 2px solid #50C878 !important; 
+  box-shadow: 1px 1px #50C878 !important;    
+}
+.btn:hover{
+background: linear-gradient(135deg, rgba(2,0,36,1) 0%, rgba(17,182,94,1) 100%, rgba(76,108,54,1) 100%);
+}
+.spinner-border:hover{
+  color: white !important;
+}
+
+
